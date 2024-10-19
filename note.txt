@@ -1,0 +1,21 @@
+Employee management server 
+................................
+
+- Add employee :firstname , lastname , age , qualification , phone 
+- view employee 
+- update a specific employee details 
+- delete and employee
+
+STEPS
+.........
+1)install -> npm i express mongoose cors dotenv
+2)create
+    -env -> connection string from mongodb database ( first create project , then create cluster )
+    -.gitignore -> node_modules
+
+3)make connection => create a folder- connection , then a folder db.js , thne make connection
+4)create a file index.js ->dotenv , connection  express , cors , listen PORT
+5)create folder model 
+6)create folder controller
+7)create folder route
+8)index.js => use route 
